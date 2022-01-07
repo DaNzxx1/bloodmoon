@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Secular+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    /* background: linear-gradient(68.15deg, #8B0000 16.62%, #000000 85.61%); */
+}
+
+/* ----- HEADER ----- */
+.cabecalho {
+    /* background-color: #d28574; */
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.cabecalho-imagem-logo {
+    height: 62px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 3px white;
+    /* border: 1px solid white; */
+    /* border-radius: 50px; */
+}
+
+.cabecalho-titulo {
+    font-family: 'Rock Salt', cursive;
+    /* color: #e8e8e8; */
+    color: white;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Secular One', sans-serif;
+    color: #e8e8e8;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cabecalho-menu-item:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 3px #8B0000;
+    font-size: 21px;
+}
+
+/* ----- MAIN ----- */
+.conteudo {
+    /* background: radial-gradient(circle, rgba(249,218,212,1) 0%, rgba(225,189,181,1) 47%, rgba(187,143,133,1) 100%); */
+    /* background: radial-gradient(circle, rgba(210,133,116,1) 0%, rgba(255,255,255,1) 0%, rgba(210,133,116,1) 100%); */
+}
+
+.conteudo-img {
+   
+}
+
+.imagem {
+    width: auto;
+    height: 500px;
+    
+}
+
+.conteudo-principal {
+    background-image: url("../img/rock_abstract.jpg");
+    width: 100%;
+    height: auto;
+
+}
+
+.conteudo-principal-escrito {
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* ----- FOOTER ----- */
+.rodape {
+    border-top: solid whitesmoke;
+    /* background-color: #d28574; */
+    background-color: black;
+}
+
+.rodape-titulo {
+    font-family: 'Rock Salt', cursive;
+    /* color: #e8e8e8; */
+    color: white;
+    font-size: 20px;
+}
+
+.redes-sociais-icons {
+    /* color: #ECD6C4; */
+    color: white;
+    font-size: 38px;
+}
+
+.redes-sociais-icons:hover {
+    color: red;
+    font-size: 39px;
+    text-shadow: 1px 1px 1px #ECD6C4;
+}
+
+.green:hover {
+    color: green;
+}
+
+.pink:hover {
+    color: rgb(255, 68, 99);
+}
+
+.blue:hover {
+    color: rgb(71, 71, 255);
+}
+
+.red:hover {
+    color: red;
+}
+
+.rodape-copy {
+    /* color: #ECD6C4; */
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media (max-width: 619px) {
+    /* ----- HEADER ----- */
+    .cabecalho-titulo {
+        font-size: 20px;
+    }
+    
+    .cabecalho-menu-item {
+        font-size: 15px;
+    }
+    
+    .cabecalho-menu-item:hover {
+        font-size: 16px;
+    }
+
+    /* ----- MAIN ----- */
+    .conteudo-principal-escrito {
+        font-size: 15px;
+    }
+
+    /* ----- FOOTER ----- */
+    .rodape-titulo {
+        font-size: 15px;
+    }
+    
+    .redes-sociais-icons {
+        font-size: 28px;
+    }
+    
+    .redes-sociais-icons:hover {
+        font-size: 29px;
+    }
+    
+    .rodape-copy {
+        font-weight: 400;
+    }
+
+    /* ----- SOBRE WE ----- */
+    .carousel-inner .carousel-item img{
+        /* object-fit: cover; */
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-inner .carousel-item{
+        height: 320px;
+        width: 100%;
+        max-height: 320px;
+    }
+}

@@ -43,7 +43,7 @@ body {
 .cabecalho-menu-item:hover {
     text-decoration: none;
     color: white;
-    text-shadow: 0px 0px 3px #8B0000;
+    text-shadow: 3px 3px 1px #8B0000;
     font-size: 21px;
 }
 
@@ -157,7 +157,7 @@ body {
         font-weight: 400;
     }
 
-    /* ----- ABOUT WE ----- */
+    /* ----- SOBRE WE ----- */
     .carousel-inner .carousel-item img{
         /* object-fit: cover; */
         width: 100%;
