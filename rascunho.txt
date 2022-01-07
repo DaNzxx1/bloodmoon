@@ -1,0 +1,27 @@
+<!-- Three columns of text below the carousel -->
+            <h2 class="text-center">Algumas de nossas apresentações</h2>
+            <div class="row">
+                <div class="col-lg-4 text-center pt-5 pb-2">
+                    <img src="img/ced123.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <h3>CED 123</h3>
+                    <p>Nos apresentamos no evento de Halloween na escola CED 123.</p>
+                    <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center pt-5 pb-2">
+                    <img src="img/banner2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <h3>Ensaio</h2>
+                        <p>Ensaio que tivemos na casa do nosso guitarrista Kevin Lucas.</p>
+                        <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center pt-5 pb-2">
+                    <img src="img/ced619.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+                    <h3>CED 619</h3>
+                    <p>Apresentação tivemos no sábado cultural promovido pelo CED 619.</p>
+                    <!-- <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p> -->
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+            <hr class="featurette-divider">
